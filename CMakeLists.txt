@@ -12,7 +12,7 @@ add_executable(
         common/SdlWindow.cpp
         common/Canvas.h
         common/Canvas.cpp
-        common/Vector3D.h world/Sphere.h world/Viewport.h common/Color.h world/Lights.h)
+        common/Vector3D.h world/Sphere.h world/Viewport.h common/Color.h world/Lights.h renderers/Renderer.h world/World.h renderers/RayTracingRenderer.cpp renderers/RayTracingRenderer.h world/Camera.h)
 
 target_link_libraries(
         RayTracing
